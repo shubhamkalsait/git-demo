@@ -1,21 +1,31 @@
 # git-demo
 
-show git version
-`git --version`
+show git version:  `git --version`
 
-initialize local repo
-`git init`
+initialize local repo: `git init`
 
-git add <file_name>		# add changed files to staging area
-git status			# show git status
-git commit -m "<msg>"		# commit files into local repo from staging area
-git diff			# differnce between working and staging area
-git remote add origin <remote_repo_url>		# add remote repo
-git pull origin master		# pull changes from remote repo
-git push origin <branch_name> 	# push changes into reomote repo
-git clone <remote_repo_url>	# clone remote repo
-git branch			# list all branch
-git checkout -b <branch_name>	# create new branch
-git branch <new_branch>		
-git checkout <branch_name>  	# switch to another branch
-git reset HEAD <file_name>	# revert from staging area
+add changed files to staging area: `git add <file_name>`		 
+
+show git status: `git status`
+
+commit files into local repo from staging area: `git commit -m "<msg>"`
+
+differnce between working and staging area: `git diff`
+
+add remote repo: `git remote add origin <remote_repo_url>`
+
+pull changes from remote repo: `git pull origin master`
+
+push changes into reomote repo: `git push origin <branch_name>`
+
+clone remote repo: `git clone <remote_repo_url>`
+
+list all branch: `git branch`
+
+create new branch: `git checkout -b <branch_name>`
+
+create new branch: `git branch <new_branch>`	
+
+switch to another branch: `git checkout <branch_name>` 
+
+revert from staging area: `git reset HEAD <file_name>` 
