@@ -29,3 +29,5 @@ create new branch: `git branch <new_branch>`
 switch to another branch: `git checkout <branch_name>` 
 
 revert from staging area: `git reset HEAD <file_name>` 
+
+merge into current branch from branch_name: `git merge <branch_name>`
