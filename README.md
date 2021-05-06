@@ -1,4 +1,4 @@
-# git-demo
+# git-CheatSheet
 
 show git version:  `git --version`
 
